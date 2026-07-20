@@ -102,7 +102,7 @@ h1{
 }
 
 .lumonad_buy{
-    width: 30%;
+    width: 45%;
     height: auto;
     border-radius: 25px;
     box-sizing: border-box;
@@ -131,7 +131,7 @@ h1{
 }
 
 .moxito_buy{
-    width: 30%;
+    width: 45%;
     height: 15%;
     border-radius: 25px;
     box-sizing: border-box;
@@ -166,7 +166,7 @@ h1{
 }
 
 .cheaps_buy{
-    width: 30%;
+    width: 45%;
     height: 15%;
     border-radius: 25px;
     box-sizing: border-box;
@@ -178,7 +178,7 @@ h1{
 }
 
 .cheaps_img{
-    width: 60%;
+    width: 50%;
     height: 60%;
     border-radius: 25px;
     border: black;
@@ -194,7 +194,7 @@ h1{
 }
 
 .gummi_buy{
-    width: 30%;
+    width: 45%;
     height: 15%;
     border-radius: 25px;
     box-sizing: border-box;
@@ -212,7 +212,7 @@ h1{
 } */
 
 .gummi_img{
-    width: 60%;
+    width: 50%;
     height: 60%;
     border-radius: 25px;
     border: black;
@@ -234,7 +234,7 @@ h1{
 } */
 
 .crountons_img{
-    width: 60%;
+    width: 50%;
     height: 60%;
     border-radius: 25px;
     border: black;
@@ -242,7 +242,7 @@ h1{
 }
 
 .crountons_buy{
-    width: 30%;
+    width: 45%;
     height: 15%;
     border-radius: 25px;
     box-sizing: border-box;
