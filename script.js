@@ -29,6 +29,7 @@ const clear_but = document.querySelector("#clear_basket")
 clear_but.addEventListener('click', function (){
     list = []
     all_cost = 0
+    alert("Ви очистили кошик")
 })
 
 async function send_order() {
@@ -51,30 +52,35 @@ but_buy_lumonad.addEventListener('click', function (){
     all_cost += 15
     list.push('Смачний лимонад 100мл 15грн')
     console.log(list)
+    alert("Ви додали в кошик лимонад для оформлення замовлення прогорніть трошки в низ та нажміть кнопку оформити замовлення")
 })
 
 but_buy_moxito.addEventListener('click', function (){
     all_cost += 15
     list.push('Дуже смачне мохіто 100мл 15грн')
     console.log(list)
+    alert("Ви додали в кошик мохіто для оформлення замовлення прогорніть трошки в низ та нажміть кнопку оформити замовлення")
 })
 
 but_buy_cheaps.addEventListener('click', function (){
     all_cost += 10
     list.push('Чипси сметана і зелень 25гр 10грн')
     console.log(list)
+    alert("Ви додали в кошик чіпси для оформлення замовлення прогорніть трошки в низ та нажміть кнопку оформити замовлення")
 })
 
 but_buy_gummi.addEventListener('click', function (){
     all_cost += 3
     list.push('Жилейки рошен 1шт 3грн')
     console.log(list)
+    alert("Ви додали в кошик жилейки для оформлення замовлення прогорніть трошки в низ та нажміть кнопку оформити замовлення")
 })
 
 but_buy_crountons.addEventListener('click', function (){
     all_cost += 17
     list.push('Сузарики 1порція 17грн')
     console.log(list)
+    alert("Ви додали в кошик сухарики для оформлення замовлення прогорніть трошки в низ та нажміть кнопку оформити замовлення")
 })
 
 async function send_order() {
@@ -94,9 +100,32 @@ async function send_order() {
 }
 
 but_ok.addEventListener('click', async function (){
-  send_order()
-  list = []
-  all_cost = 0
+  let promocod = confirm("Ви маєте промокод?")
+
+  if (promocod){
+    let prom = prompt("Водьте ваш промокод")
+
+    if (prom == "smartcode найкраща школа програмування"){
+      if (all_cost <= 15){
+        all_cost = 0
+      }else{
+        all_cost -= 15
+      }
+      send_order()
+      list = []
+      all_cost = 0
+      alert("Промокод діючий вітаю з покупкгою знижка 15грн")
+    }else{
+      alert("Недіючий промокод")
+    }
+
+  }else{
+    alert("Вітаю з покупкою")
+    send_order()
+    list = []
+    all_cost = 0
+  }
+
 })
 
 // async function send_order() {

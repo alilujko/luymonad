@@ -91,14 +91,12 @@ h1{
 }
 
 .lumonad{
-    width: 15%;
-    height: auto;
-    margin: auto;
-    border-radius: 25px;
-    border-color: black;
-    border: 3px solid rgb(0, 0, 0);
-    margin-left: 5%;
+    width: 14%;
+    height: 14%;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-left: 5%;
 }
 
 .lumonad_buy{
@@ -114,14 +112,11 @@ h1{
 }
 
 .moxito{
-    width: 15%;
-    height: auto;
-    border-radius: 25px;
-    border: 3px solid black;
+    width: 14%;
+    height: 14%;
     text-align: center;
-    margin-right: 65%;
-    place-items: center;
-    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
 }
 
 .moxito_img{
@@ -132,7 +127,7 @@ h1{
 
 .moxito_buy{
     width: 45%;
-    height: 15%;
+    height: auto;
     border-radius: 25px;
     box-sizing: border-box;
     border-color: green;
@@ -167,7 +162,7 @@ h1{
 
 .cheaps_buy{
     width: 45%;
-    height: 15%;
+    height: auto;
     border-radius: 25px;
     box-sizing: border-box;
     border-color: green;
@@ -178,7 +173,7 @@ h1{
 }
 
 .cheaps_img{
-    width: 50%;
+    width: 60%;
     height: 60%;
     border-radius: 25px;
     border: black;
@@ -195,7 +190,7 @@ h1{
 
 .gummi_buy{
     width: 45%;
-    height: 15%;
+    height: auto;
     border-radius: 25px;
     box-sizing: border-box;
     border-color: green;
@@ -205,18 +200,10 @@ h1{
     color: black;
 }
 
-/* .gummi_img{
+.gummi_img{
     width: 54%;
     height: auto;
     border-radius: 25px;
-} */
-
-.gummi_img{
-    width: 50%;
-    height: 60%;
-    border-radius: 25px;
-    border: black;
-    margin-top: 5%;
 }
 
 .crountons{
@@ -227,23 +214,15 @@ h1{
     text-align: center;
 }
 
-/* .crountons_img{
+.crountons_img{
     width: 65%;
     height: auto;
     border-radius: 25px;
-} */
-
-.crountons_img{
-    width: 50%;
-    height: 60%;
-    border-radius: 25px;
-    border: black;
-    margin-top: 5%;
 }
 
 .crountons_buy{
-    width: 45%;
-    height: 15%;
+    width: 40%;
+    height: auto;
     border-radius: 25px;
     box-sizing: border-box;
     border-color: green;
